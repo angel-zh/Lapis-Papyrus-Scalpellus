@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Gamja+Flower&family=Mitr&display=swap" rel="stylesheet">
+  <title>Lapis Papyrus Scalpellus</title>
+</head>
+
+<body>
+  <div id="h1Container">
+    <h1>Lapis Papyrus Scalpellus</h1>
+  </div>
+  <div id="gameContainer">
+    <h2>Please click the button to select your move below:</h2>
+    <div class="choicesContainer">
+      <div class="rockContainer">
+        <img id="rockIcon" class="icons" src="https://i.imgur.com/NpT64VS.png" alt="Lapis"><br />
+        <button id="rock" class="buttons">Lapis</button>
+      </div>
+      <div class="paperContainer">
+        <img id="paperIcon" class="icons" src="https://i.imgur.com/2MBTevl.png" alt="Papyrus"><br />
+        <button id="paper" class="buttons">Papyrus</button>
+      </div>
+      <div class="scissorsContainer">
+        <img id="scissorsIcon" class="icons" src="https://i.imgur.com/HxQFUOl.png" alt="Scalpellus"><br />
+        <button id="scissors" class="buttons">Scalpellus</button>
+      </div>
+    </div>
+    <div id="statsContainer">
+      <div class="stats">
+        <h2>Player's move: <span id="playerMoveText"><span></h2>
+        <h2>Player's Score: <span id="playerScoreText">0</span></h2>
+      </div>
+      <div class="stats">
+        <h2>Computer's move: <span id="compMoveText"></span></h2>
+        <h2>Computer's Score: <span id="compScoreText">0</span></h2>
+      </div>
+    </div>
+    <div id="result">
+      <h2 id="resultText">&hearts; &hearts; &hearts;</h2>
+      <button id="reset">Reset Game</button>
+    </div>
+  </div>
+  <footer id="footer">
+    <p>Drawn and created by Angel Z.</p>
+  </footer>
+</body>
+
+</html>
