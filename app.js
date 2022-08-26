@@ -32,7 +32,7 @@ function calculateWinner() {
       setTimeout(compScore++, 2000);
       compScoreText.innerText = compScore;
     } else {
-      resultText.innerText = "You win!";
+      resultText.innerText = "Congratulations! You win!";
       setTimeout(playerScore++, 2000);
       playerScoreText.innerText = playerScore;
     }
@@ -42,7 +42,7 @@ function calculateWinner() {
       setTimeout(compScore++, 2000);
       compScoreText.innerText = compScore;
     } else {
-      resultText.innerText = "You win!";
+      resultText.innerText = "Congratulations! You win!";
       setTimeout(playerScore++, 2000);
       playerScoreText.innerText = playerScore;
     }
@@ -52,7 +52,7 @@ function calculateWinner() {
       setTimeout(compScore++, 2000);
       compScoreText.innerText = compScore;
     } else {
-      resultText.innerText = "You win!";
+      resultText.innerText = "Congratulations! You win!";
       setTimeout(playerScore++, 2000);
       playerScoreText.innerText = playerScore;
     }
