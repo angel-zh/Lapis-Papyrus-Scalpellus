@@ -14,8 +14,8 @@ h1 {
   background: rgba(255, 255, 255, 0.6);
   width: 700px;
   padding: 30px;
-  margin: 0 auto;
   border-radius: 40px;
+  margin: 50px auto;
 }
 .choicesContainer {
   display: flex;
@@ -92,7 +92,7 @@ img.icons {
   #compMoveText,
   #playerScoreText,
   #compScoreText {
-    font-size: 27px
+    font-size: 27px;
   }
   #resultText {
     font-size: 30px;
